@@ -22,6 +22,7 @@ class Person
   def ballin_candy_lover?
     if @candy_lover == true
       "Aw sweet, this cat loves them some candy!"
+      binding.pry 
     else
       10.times do
         "not a ballin candy lover"
