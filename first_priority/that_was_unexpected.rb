@@ -1,4 +1,4 @@
-require_relative 
+
 class Person
   attr_accessor :name, :candy_lover
 
